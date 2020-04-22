@@ -7,7 +7,7 @@ Demo: https://www.arcaweb.ch/arc-grid/demo
 
 Add arc-grid.css to your project css folder and link it in your html header:
 
-```
+```html
 <link rel="stylesheet" href="css/arc-grid.css">
 ```
 
@@ -16,7 +16,7 @@ Add arc-grid.css to your project css folder and link it in your html header:
 grid, row, col classes are required in order to work. Use s/m/l column classes with the number of column span.
 
 ### Eg. 3 column responsive grid
-```
+```html
 <div class="grid">
   <div class="row">
     <div class="col m4"></div>
@@ -27,7 +27,7 @@ grid, row, col classes are required in order to work. Use s/m/l column classes w
 ```
 
 ### Eg. 1/3/4 column layout (small/medium/large)
-```
+```html
 <div class="grid">
   <div class="row">
     <div class="col m4 l3"></div>
