@@ -1,5 +1,5 @@
-# Super tiny responsive grid system
-Simple 12 column grid system in less than 2k, for your lightweight responsive project. It works with only 3 types of screen sizes: small, medium, and large to keep things as simple as possible.
+# Tiny responsive grid system
+Simple 12 column grid system that works with only 3 types of screen sizes: small, medium, and large.
 
 Demo: https://www.arcaweb.ch/arc-grid/demo
 
