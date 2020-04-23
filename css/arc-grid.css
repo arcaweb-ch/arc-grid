@@ -24,15 +24,15 @@ You may contact the author at info@arcaweb.ch
 
 /* Setup */
 
-.grid, .row, .col{
-    float:left;
-    width:100%;
+.grid, .row, .col {
+    float: left;
+    width: 100%;
     box-sizing: border-box;
 }
 
 /* Main grid settings */
 
-.grid{
+.grid {
     padding: 0.75rem;
     margin-bottom: 1.5rem;
 }
@@ -52,68 +52,134 @@ You may contact the author at info@arcaweb.ch
     padding: 0.75rem 0px 0.75rem 1.5rem;
 }
 
-/* Medium screen layout (default) */
-
-.grid .m1 {width:8.333%;}
-.grid .m2 {width:16.666%;}
-.grid .m3 {width:25%;}
-.grid .m4 {width:33.333%;}
-.grid .m5 {width:41.666%;}
-.grid .m6 {width:50%;}
-.grid .m7 {width:58.333%;}
-.grid .m8 {width:66.666%;}
-.grid .m9 {width:75%;}
-.grid .m10{width:83.333%;}
-.grid .m11{width:91.666%;}
-.grid .m12{width:100%;}
-
 /* Small screen layout */
 
 @media only screen and (max-width: 600px) {
-
-    .grid .m1, .grid .l1,
-    .grid .m2, .grid .l2,
-    .grid .m3, .grid .l3,
-    .grid .m4, .grid .l4,
-    .grid .m5, .grid .l5,
-    .grid .m6, .grid .l6,
-    .grid .m7, .grid .l7,
-    .grid .m8, .grid .l8,
-    .grid .m9, .grid .l9,
-    .grid .m10, .grid .l10,
-    .grid .m11, .grid .l11{
-        width:100%;
+    .grid .s0 {
+        display: none;
     }
-    
-    .grid .s1{width:8.333%;}
-    .grid .s2{width:16.666%;}
-    .grid .s3{width:25%;}
-    .grid .s4{width:33.333%;}
-    .grid .s5{width:41.666%;}
-    .grid .s6{width:50%;}
-    .grid .s7{width:58.333%;}
-    .grid .s8{width:66.666%;}
-    .grid .s9{width:75%;}
-    .grid .s10{width:83.333%;}
-    .grid .s11{width:91.666%;}
-    .grid .s12{width:100%;}
+    .grid .s1 {
+        width: 8.333%;
+    }
+    .grid .s2 {
+        width: 16.666%;
+    }
+    .grid .s3 {
+        width: 25%;
+    }
+    .grid .s4 {
+        width: 33.333%;
+    }
+    .grid .s5 {
+        width: 41.666%;
+    }
+    .grid .s6 {
+        width: 50%;
+    }
+    .grid .s7 {
+        width: 58.333%;
+    }
+    .grid .s8 {
+        width: 66.666%;
+    }
+    .grid .s9 {
+        width: 75%;
+    }
+    .grid .s10 {
+        width: 83.333%;
+    }
+    .grid .s11 {
+        width: 91.666%;
+    }
+    .grid .s12 {
+        width: 100%;
+    }
+}
 
+/* Medium screen layout */
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .grid .m0 {
+        display: none;
+    }
+    .grid .m1 {
+        width: 8.333%;
+    }
+    .grid .m2 {
+        width: 16.666%;
+    }
+    .grid .m3 {
+        width: 25%;
+    }
+    .grid .m4 {
+        width: 33.333%;
+    }
+    .grid .m5 {
+        width: 41.666%;
+    }
+    .grid .m6 {
+        width: 50%;
+    }
+    .grid .m7 {
+        width: 58.333%;
+    }
+    .grid .m8 {
+        width: 66.666%;
+    }
+    .grid .m9 {
+        width: 75%;
+    }
+    .grid .m10 {
+        width: 83.333%;
+    }
+    .grid .m11 {
+        width: 91.666%;
+    }
+    .grid .m12 {
+        width: 100%;
+    }
 }
 
 /* Large screen layout */
 
 @media screen and (min-width: 1200px) {
-    
-    .grid .l1{width:8.333%;}
-    .grid .l2{width:16.666%;}
-    .grid .l3{width:25%;}
-    .grid .l4{width:33.333%;}
-    .grid .l5{width:41.666%;}
-    .grid .l6{width:50%;}
-    .grid .l7{width:58.333%;}
-    .grid .l8{width:66.666%;}
-    .grid .l9{width:75%;}
-    .grid .l10{width:83.333%;}
-    .grid .l11{width:91.666%;}
-    .grid .l12{width:100%;}
-  }
+    .grid .l0 {
+        display: none;
+    }
+    .grid .l1 {
+        width: 8.333%;
+    }
+    .grid .l2 {
+        width: 16.666%;
+    }
+    .grid .l3 {
+        width: 25%;
+    }
+    .grid .l4 {
+        width: 33.333%;
+    }
+    .grid .l5 {
+        width: 41.666%;
+    }
+    .grid .l6 {
+        width: 50%;
+    }
+    .grid .l7 {
+        width: 58.333%;
+    }
+    .grid .l8 {
+        width: 66.666%;
+    }
+    .grid .l9 {
+        width: 75%;
+    }
+    .grid .l10 {
+        width: 83.333%;
+    }
+    .grid .l11 {
+        width: 91.666%;
+    }
+    .grid .l12 {
+        width: 100%;
+    }
+}
