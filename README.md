@@ -15,7 +15,7 @@ Add arc-grid.css to your project css folder and link it in your html header:
 
 grid, row, col classes are required in order to work. Use s/m/l classes to define the column width for each display size.
 
-### Eg. 3 column responsive grid
+### 3 column responsive grid
 ```html
 <div class="grid">
   <div class="row">
@@ -26,7 +26,7 @@ grid, row, col classes are required in order to work. Use s/m/l classes to defin
 </div>
 ```
 
-### Eg. 1/3/4 column layout (small/medium/large)
+### 1/3/4 column layout (small/medium/large)
 ```html
 <div class="grid">
   <div class="row">
