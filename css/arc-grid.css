@@ -24,7 +24,7 @@ You may contact the author at info@arcaweb.ch
 
 /* Setup */
 
-.grid, .row, .col {
+.grid, .grid .row, .grid .col {
     float: left;
     width: 100%;
     box-sizing: border-box;
