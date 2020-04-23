@@ -52,56 +52,67 @@ You may contact the author at info@arcaweb.ch
     padding: 0.75rem 0px 0.75rem 1.5rem;
 }
 
-/* Small screen layout */
+/* Default layout */
+
+.grid .s1 {
+    width: 8.333%;
+}
+
+.grid .s2 {
+    width: 16.666%;
+}
+
+.grid .s3 {
+    width: 25%;
+}
+
+.grid .s4 {
+    width: 33.333%;
+}
+
+.grid .s5 {
+    width: 41.666%;
+}
+
+.grid .s6 {
+    width: 50%;
+}
+
+.grid .s7 {
+    width: 58.333%;
+}
+
+.grid .s8 {
+    width: 66.666%;
+}
+
+.grid .s9 {
+    width: 75%;
+}
+
+.grid .s10 {
+    width: 83.333%;
+}
+
+.grid .s11 {
+    width: 91.666%;
+}
+
+.grid .s12 {
+    width: 100%;
+}
+
+/* Small screen layout specific */
 
 @media only screen and (max-width: 600px) {
     .grid .s0 {
         display: none;
     }
-    .grid .s1 {
-        width: 8.333%;
-    }
-    .grid .s2 {
-        width: 16.666%;
-    }
-    .grid .s3 {
-        width: 25%;
-    }
-    .grid .s4 {
-        width: 33.333%;
-    }
-    .grid .s5 {
-        width: 41.666%;
-    }
-    .grid .s6 {
-        width: 50%;
-    }
-    .grid .s7 {
-        width: 58.333%;
-    }
-    .grid .s8 {
-        width: 66.666%;
-    }
-    .grid .s9 {
-        width: 75%;
-    }
-    .grid .s10 {
-        width: 83.333%;
-    }
-    .grid .s11 {
-        width: 91.666%;
-    }
-    .grid .s12 {
-        width: 100%;
-    }
 }
 
-/* Medium screen layout */
+/* Medium screen layout and higher */
 
-@media only screen and (min-width: 600px) and (max-width: 1200px) {
-    .grid .m0 {
-        display: none;
-    }
+@media only screen and (min-width: 600px) {
     .grid .m1 {
         width: 8.333%;
     }
@@ -137,6 +148,14 @@ You may contact the author at info@arcaweb.ch
     }
     .grid .m12 {
         width: 100%;
+    }
+}
+
+/* Medium screen layout specific */
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .grid .m0 {
+        display: none;
     }
 }
 
