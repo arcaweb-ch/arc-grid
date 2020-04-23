@@ -40,4 +40,14 @@ grid, row, col classes are required in order to work. Use s/m/l classes to defin
 </div>
 ```
 
+### Column hiding
+```html
+<div class="grid">
+  <div class="row">
+    <div class="col s0"></div>
+    <div class="col s0 m0"></div>
+  </div>
+</div>
+```
+
 See demo page source for more info.
