@@ -1,22 +1,22 @@
-# Super tiny responsive grid system
-Simple 12 column grid system in less than 2k, for your lightweight responsive project. It works with only 3 types of screen sizes: small, medium, and large to keep things as simple as possible.
+# Minimalistic responsive grid system
+Simple 12 column grid system that works with only 3 types of screen sizes: small, medium, and large.
 
-Demo: https://www.arcaweb.ch/arc-grid/demo
+[Demo page](https://www.arcaweb.ch/arc-grid/demo)
 
 ## Setup
 
 Add arc-grid.css to your project css folder and link it in your html header:
 
-```
+```html
 <link rel="stylesheet" href="css/arc-grid.css">
 ```
 
 ## Usage
 
-grid, row, col classes are required in order to work. Use s/m/l column classes with the number of column span.
+grid, row, col classes are required in order to work. Use s/m/l classes to define the column width for each display size.
 
 ### Eg. 3 column responsive grid
-```
+```html
 <div class="grid">
   <div class="row">
     <div class="col m4"></div>
@@ -27,7 +27,7 @@ grid, row, col classes are required in order to work. Use s/m/l column classes w
 ```
 
 ### Eg. 1/3/4 column layout (small/medium/large)
-```
+```html
 <div class="grid">
   <div class="row">
     <div class="col m4 l3"></div>
