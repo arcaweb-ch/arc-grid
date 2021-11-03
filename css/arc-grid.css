@@ -24,7 +24,7 @@ You may contact the author at info@arcaweb.ch
 
 /* Setup */
 
-.grid, .grid .row, .grid .col {
+.grid, .grid>.row, .grid>.row>.col {
     float: left;
     width: 100%;
     box-sizing: border-box;
@@ -33,172 +33,171 @@ You may contact the author at info@arcaweb.ch
 /* Main grid settings */
 
 .grid {
-    padding: 0.75rem;
-    margin-bottom: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* Row is only for alignment purpose */
 
-.grid .row {
-    width: 100%;
-    margin: 0rem 0 0 -0.75rem;
+.grid>.row {
+    margin: 0rem 0 0 -1rem;
 }
 
 /* Column setup */
 
-.grid .col {
+.grid>.row>.col {
     margin-left: 0;
     margin-right: 0;
-    padding: 0.75rem 0px 0.75rem 1.5rem;
+    padding: 1rem 0px 1rem 2rem;
 }
 
 /* Default layout */
 
 .grid .s1 {
-    width: 8.333%;
+    width: 8.333% !important;
 }
 
 .grid .s2 {
-    width: 16.666%;
+    width: 16.666% !important;
 }
 
 .grid .s3 {
-    width: 25%;
+    width: 25% !important;
 }
 
 .grid .s4 {
-    width: 33.333%;
+    width: 33.333% !important;
 }
 
 .grid .s5 {
-    width: 41.666%;
+    width: 41.666% !important;
 }
 
 .grid .s6 {
-    width: 50%;
+    width: 50% !important;
 }
 
 .grid .s7 {
-    width: 58.333%;
+    width: 58.333% !important;
 }
 
 .grid .s8 {
-    width: 66.666%;
+    width: 66.666% !important;
 }
 
 .grid .s9 {
-    width: 75%;
+    width: 75% !important;
 }
 
 .grid .s10 {
-    width: 83.333%;
+    width: 83.333% !important;
 }
 
 .grid .s11 {
-    width: 91.666%;
+    width: 91.666% !important;
 }
 
 .grid .s12 {
-    width: 100%;
+    width: 100% !important;
 }
 
 /* Small screen layout specific */
 
-@media only screen and (max-width: 600px) {
-    .grid .s0 {
+@media only screen and (max-width: 760px) {
+    .m, .l, .s0 {
         display: none;
     }
 }
 
 /* Medium screen layout and higher */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 760px) {
     .grid .m1 {
-        width: 8.333%;
+        width: 8.333% !important;
     }
     .grid .m2 {
-        width: 16.666%;
+        width: 16.666% !important;
     }
     .grid .m3 {
-        width: 25%;
+        width: 25% !important;
     }
     .grid .m4 {
-        width: 33.333%;
+        width: 33.333% !important;
     }
     .grid .m5 {
-        width: 41.666%;
+        width: 41.666% !important;
     }
     .grid .m6 {
-        width: 50%;
+        width: 50% !important;
     }
     .grid .m7 {
-        width: 58.333%;
+        width: 58.333% !important;
     }
     .grid .m8 {
-        width: 66.666%;
+        width: 66.666% !important;
     }
     .grid .m9 {
-        width: 75%;
+        width: 75% !important;
     }
     .grid .m10 {
-        width: 83.333%;
+        width: 83.333% !important;
     }
     .grid .m11 {
-        width: 91.666%;
+        width: 91.666% !important;
     }
     .grid .m12 {
-        width: 100%;
+        width: 100% !important;
     }
 }
 
 /* Medium screen layout specific */
 
-@media only screen and (min-width: 600px) and (max-width: 1200px) {
-    .grid .m0 {
+@media only screen and (min-width: 760px) and (max-width: 960px) {
+    .s, .l, .m0 {
         display: none;
     }
 }
 
 /* Large screen layout */
 
-@media screen and (min-width: 1200px) {
-    .grid .l0 {
+@media screen and (min-width: 960px) {
+    .s, .m, .l0 {
         display: none;
     }
     .grid .l1 {
-        width: 8.333%;
+        width: 8.333% !important;
     }
     .grid .l2 {
-        width: 16.666%;
+        width: 16.666% !important;
     }
     .grid .l3 {
-        width: 25%;
+        width: 25% !important;
     }
     .grid .l4 {
-        width: 33.333%;
+        width: 33.333% !important;
     }
     .grid .l5 {
-        width: 41.666%;
+        width: 41.666% !important;
     }
     .grid .l6 {
-        width: 50%;
+        width: 50% !important;
     }
     .grid .l7 {
-        width: 58.333%;
+        width: 58.333% !important;
     }
     .grid .l8 {
-        width: 66.666%;
+        width: 66.666% !important;
     }
     .grid .l9 {
-        width: 75%;
+        width: 75% !important;
     }
     .grid .l10 {
-        width: 83.333%;
+        width: 83.333% !important;
     }
     .grid .l11 {
-        width: 91.666%;
+        width: 91.666% !important;
     }
     .grid .l12 {
-        width: 100%;
+        width: 100% !important;
     }
 }
