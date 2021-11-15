@@ -37,10 +37,19 @@ You may contact the author at info@arcaweb.ch
     margin-bottom: 2rem;
 }
 
+.grid.collapse {
+    padding: 0rem;
+    margin-bottom: 0;
+}
+
 /* Row is only for alignment purpose */
 
 .grid>.row {
-    margin: 0rem 0 0 -1rem;
+    margin: 0 0 0 -1rem;
+}
+
+.grid.collapse>.row {
+    margin: 0 0 0 -0.5rem;
 }
 
 /* Column setup */
@@ -48,7 +57,11 @@ You may contact the author at info@arcaweb.ch
 .grid>.row>.col {
     margin-left: 0;
     margin-right: 0;
-    padding: 1rem 0px 1rem 2rem;
+    padding: 1rem 0 1rem 2rem;
+}
+
+.grid.collapse>.row>.col {
+    padding: 1rem 0 0rem 1rem;
 }
 
 /* Default layout */
@@ -105,7 +118,7 @@ You may contact the author at info@arcaweb.ch
 
 @media only screen and (max-width: 760px) {
     .m, .l, .s0 {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -154,7 +167,7 @@ You may contact the author at info@arcaweb.ch
 
 @media only screen and (min-width: 760px) and (max-width: 960px) {
     .s, .l, .m0 {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -162,7 +175,7 @@ You may contact the author at info@arcaweb.ch
 
 @media screen and (min-width: 960px) {
     .s, .m, .l0 {
-        display: none;
+        display: none !important;
     }
     .grid .l1 {
         width: 8.333% !important;
